@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.shop.controllers.HomeController">
+   <children>
+      <Label layoutX="181.0" layoutY="44.0" text="Welcome to Shop Application">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="334.0" layoutY="111.0" mnemonicParsing="false" onAction="#handleDevButton" text="ผู้จัดทำ">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <Button layoutX="261.0" layoutY="199.0" mnemonicParsing="false" onAction="#handleJohnMemberCardButton" text="บัตรสมาชิกของJohn">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <Button layoutX="260.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleAnnaMemberCardButton" text="บัตรสมาชิกของAnna">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <Button layoutX="259.0" layoutY="400.0" mnemonicParsing="false" onAction="#handleHarryMemberCardButton" text="บัตรสมาชิกของHarry">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <Button layoutX="262.0" layoutY="500.0" mnemonicParsing="false" onAction="#handleMemberCardListButton" text="Member Card List">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
